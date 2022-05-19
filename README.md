@@ -14,7 +14,7 @@ Currently enrolled back in to school at UCLA Extensions for Full-Stack Web Codin
 Authorized to work in the US for any employer
 
 Work Experience: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 **Security Officer/Rover
 Securitas - Los Angeles, CA
 
@@ -28,6 +28,7 @@ Promoted after two months to Rover for vice President of the company.
 
 Effectively communicated pertinent information to employees, visitors, and guests
 Licensed professional security officer for two years
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -41,6 +42,8 @@ Provided escort access to construction workers of the entire backend of the stor
 Had full access to the store backend as a key holder, w/ arming and disarming the store.
 
 Provided assistance to other security during day watch for apprehensive assistance and had CCTV controls in assistance in catching internal and external suspects.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -98,26 +101,31 @@ Employment Skillset Summary: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 flowcharts, and software applications.
 
 •Data retail stock charts oriented (know where to put item where it supposed to be and why) and able to Identify fraudulent currency, checks, and credit cards.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Education:  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 College Degree in Full-Stack Coding Bootcamp: (wip)
 UCLA Extension - Los Angeles, CA
 December 2021 to Present
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Associate in Graphic design- AA
 Los Angeles ORT College-Los Angeles Campus - Los Angeles, CA
 January 2020 to March 2020
  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 College Degree in Computer Programming
 Santa Monica College - Santa Monica, CA
 August 2010 to August 2017
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Live URL: https://niksharpio.github.io/
+Live URL:  https://niksharpkings.github.io/my-portfolio-uclax-C2/
 
-Github: https://github.com/
+Github: [https://github.com/](https://github.com/Niksharpkings/my-portfolio-uclax-C2/)
 
-![Resume]()
+![Resume](![screenshot-127 0 0 1_5500-2022 05 18-17_19_09](https://user-images.githubusercontent.com/67552318/169182486-ab5586a3-bae4-48d8-82e5-b0b6e6ef5ce5.png)
+![screenshot-127 0 0 1_5500-2022 05 18-17_59_35](https://user-images.githubusercontent.com/67552318/169182507-2f191e83-c4ea-456f-8d99-84c01e58ef4f.png)
+)
