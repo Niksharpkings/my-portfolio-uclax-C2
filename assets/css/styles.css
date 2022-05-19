@@ -1,0 +1,346 @@
+:root {
+  --primary-shadow-color: 0 0 10px #fce138,
+    0 0 20px #fce138,
+    0 0 30px #fce138,
+    0 0 40px #fce138,
+    0 0 70px #fce138,
+    0 0 80px blue,
+    0 0 100px #0d0d0e,
+    0 0 150px #0d0d0e;
+  --primary-hex-color: #024e76;
+  --secondary-hex-color: #fce138;
+  --background-white-rgb-color: rgba(255, 255, 255, 1);
+}
+
+/* wildcard */
+* {
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-animation: Loadup 5s linear;
+  animation: Loadup 5s linear;
+}
+
+html * {
+  -webkit-animation: cursor 4s infinite;
+  animation: cursor 4s infinite;
+}
+
+
+head {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--primary-hex-color);
+
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: var(--secondary-hex-color);
+}
+
+header {
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: rgba(0, 255, 98, 0.507);
+  color: rgb(255, 255, 255);
+  border-bottom: 4px solid rgb(0, 255, 221);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 100%;
+  background-repeat: no-repeat;
+}
+
+header nav {
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  text-shadow: var(--primary-shadow-color);
+  font-size: 20px
+}
+
+header nav li {
+  display: inline-block;
+  
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-right: 10px;
+}
+
+header nav li a {
+  display: block;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: blue;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.5;
+  outline-style: dashed;
+  outline-color: blue;
+  outline-width: 2px;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 3px;
+  background-color: var(--secondary-hex-color);
+  color: var(--primary-hex-color);
+  box-shadow: 2 0 1px #fce138;
+}
+
+header nav li a:hover {
+  color: blue;
+  text-decoration: none;
+  outline-style: dashed;
+  outline-color: blue;
+  outline-width: 2px;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 3px;
+  background-color: blue;
+  color: var(--secondary-hex-color);
+  box-shadow: 2 0 1px blue;
+}
+
+header nav li a:active {
+  color: blue;
+  text-decoration: none;
+  outline-style: dashed;
+  outline-color: blue;
+  outline-width: 2px;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 3px;
+  background-color: blue;
+  color: var(--secondary-hex-color);
+  box-shadow: 2 0 1px blue;
+}
+
+header nav li a:focus {
+  color: blue;
+  text-decoration: none;
+  outline-style: dashed;
+  outline-color: blue;
+  outline-width: 2px;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 3px;
+  background-color: blue;
+  color: var(--secondary-hex-color);
+  box-shadow: 2 0 1px blue;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  background-image: url(../images/banner.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: blue;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: var(--primary-shadow-color);
+
+}
+
+.hero img {
+  width: auto;
+  height: auto;
+  image-resolution: high;
+  border-radius: 50%;
+  border: 5px solid #fce138;
+  box-shadow: var(--primary-shadow-color);
+}
+
+.hero h3 {
+  color: var(--primary-hex-color);
+  font-size: 60px;
+  text-shadow: var(--primary-shadow-color);
+}
+
+.hero h5 {
+  color: var(--primary-hex-color);
+  text-shadow: var(--primary-shadow-color);
+}
+
+.about-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: yellow;
+  color: var(--primary-hex-color)
+}
+
+.about-me p {
+  color: var(--primary-hex-color);
+  font-size: 20px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: left;
+  text-shadow: var(--primary-shadow-color);
+}
+
+
+@keyframes projects {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.projects {
+  display: flex;
+  background-color: var(--primary-hex-color);
+  color: yellow;
+  font-size: 14px;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+
+
+.projects img {
+  box-shadow: 0 0 10px #0d0d0e,
+    0 0 20px #0d0d0e,
+    0 0 30px yellow;
+
+}
+
+.projects p {
+  text-shadow: 0 0 10px #0d0d0e,
+    0 0 20px #0d0d0e,
+    0 0 30px #0d0d0e,
+    0 0 40px #0d0d0e,
+    0 0 70px blue 0 0 80px blue,
+    0 0 100px blue,
+    0 0 150px blue;
+  ;
+
+}
+
+footer {
+  color: var(--primary-hex-color);
+  font-weight: bold;
+}
+
+footer h2 {
+  font-size: 50px;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+  color: var(--primary-hex-color)
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: auto;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px 10px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 105%;
+  color: var(--secondary-hex-color);
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+@keyframes Loadup {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes cursor {
+  0% {
+    cursor: url(/niksharfavicon16x.ico) 0 0, crosshair;
+  }
+
+  20% {
+    cursor: url(/niksharpfavicon16x.ico) 0 0, crosshair;
+  }
+
+  40% {
+    cursor: url(/niksharfavicon36x.ico) 0 0, crosshair;
+  }
+
+  60% {
+    cursor: url(/niksharpfavicon36x.ico) 0 0, crosshair;
+  }
+
+  80% {
+    cursor: url(/niksharfavicon64x.ico) 0 0, crosshair;
+  }
+
+  100% {
+    cursor: url(/niksharpfavicon64x.ico) 0 0, crosshair;
+  }
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+  html {
+      overflow: auto;
+      font-size: 12px;
+    }
+  
+    .projects img {
+      width: 50%;
+      height: 50%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+  html {
+    overflow: auto;
+    font-size: 12px;
+  }
+
+  .projects img {
+    width: 50%;
+    height: 50%;
+  }
+
+}
